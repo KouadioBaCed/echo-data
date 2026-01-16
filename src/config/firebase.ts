@@ -46,7 +46,7 @@ export interface QuizScore {
   created_at?: string;
 }
 
-export interface FirestoreUser {
+export interface FirestoreUser {  
   id: string;
   email: string;
   email_verified: boolean;
